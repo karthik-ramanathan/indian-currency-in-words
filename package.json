@@ -1,6 +1,6 @@
 {
   "name": "indian-currency-in-words",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Convert indian currency into words including paisa",
   "main": "index.js",
   "scripts": {
