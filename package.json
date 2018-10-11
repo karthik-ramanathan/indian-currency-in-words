@@ -1,0 +1,21 @@
+{
+  "name": "indian-currency-in-words",
+  "version": "1.0.0",
+  "description": "Convert indian currency into words including paisa",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karthik-ramanathan/indian-currency-in-words.git"
+  },
+  "author": "Karthik Ramanathan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/karthik-ramanathan/indian-currency-in-words/issues"
+  },
+  "homepage": "https://github.com/karthik-ramanathan/indian-currency-in-words#readme",
+  "dependencies": {
+  }
+}
