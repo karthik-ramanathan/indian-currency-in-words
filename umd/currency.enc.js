@@ -11,19 +11,19 @@
 (function (root, factory) {
     if (typeof define === 'function' && define.amd) {
         // AMD. Register as an anonymous module.
-        define(['b'], factory);
+        define([], factory);
     } else if (typeof exports === 'object') {
         // Node. Does not work with strict CommonJS, but
         // only CommonJS-like environments that support module.exports,
         // like Node.
-        module.exports = factory(require('b'));
+        module.exports = factory();
     } else {
         // Browser globals (root is window)
-        root.indianCurrencyInWords = factory(root.b);
+        root.indianCurrencyInWords = factory(root);
     }
-}(this, function (b) {
-    return function(f){
-	const _$_ebec=[" zero"," one"," two"," three"," four"," five"," six"," seven"," eight"," nine"," ten"," eleven"," twelve"," thirteen"," fourteen"," fifteen"," sixteen"," seventeen"," eighteen"," nineteen",""," twenty"," thirty"," forty"," fifty"," sixty"," seventy"," eighty"," ninety","00","0","toString","split","reverse","length","1"," hundred"," thousand"," lakh"," crore","toFixed",".","replace"," Rupees only"," paisa only"," Rupees and","exports"];
+}(this, function () {
+	return (f)=>{
+		const _$_ebec=[" zero"," one"," two"," three"," four"," five"," six"," seven"," eight"," nine"," ten"," eleven"," twelve"," thirteen"," fourteen"," fifteen"," sixteen"," seventeen"," eighteen"," nineteen",""," twenty"," thirty"," forty"," fifty"," sixty"," seventy"," eighty"," ninety","00","0","toString","split","reverse","length","1"," hundred"," thousand"," lakh"," crore","toFixed",".","replace"," Rupees only"," paisa only"," Rupees and","exports"];
 
 	var g,a,c,e,h;//1
 	const m=[_$_ebec[0],_$_ebec[1],_$_ebec[2],_$_ebec[3],_$_ebec[4],_$_ebec[5],_$_ebec[6],_$_ebec[7],_$_ebec[8],_$_ebec[9]];//3
