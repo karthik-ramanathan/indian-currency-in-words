@@ -15,7 +15,7 @@ or
 const indianCurrencyInWords = require('indian-currency-in-words');
 ```
 ## UMD
-you can directly include ~node_modules/indian-currency-in-words/umd/currency.enc.js in script tag
+you can directly include ~node_modules/indian-currency-in-words/index.js in script tag
 
 ## Usage
 ```
